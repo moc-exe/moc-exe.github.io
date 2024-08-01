@@ -22,6 +22,11 @@ body{
         box-sizing: border-box;
         height:100vh;
         background: url(./background-new.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
     }
 
     #menu{
@@ -97,6 +102,11 @@ body{
         height:100vh;
         background: url(./background-new.jpg);
         width:100%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
     }
 
     #menu{
@@ -173,6 +183,11 @@ body{
         height:100vh;
         background: url(./background-new.jpg);
         width:100%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    
     }
 
     #menu{
@@ -251,6 +266,10 @@ body{
         box-sizing: border-box;
         height:100vh;
         background: url(./background-new.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     #menu{
