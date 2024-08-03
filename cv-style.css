@@ -1,7 +1,21 @@
 body{
 
     margin:0;
+    background: url('./pics/background-july2024.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+   
 }
+
+li{
+    padding: 10px 20px;
+}
+
+
+
+
 
 
 /*for smartphones*/
@@ -14,18 +28,12 @@ body{
 
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
         
     }
 
@@ -93,20 +101,13 @@ body{
     
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
         width:100%;
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        
     }
 
     #menu{
@@ -174,20 +175,13 @@ body{
         
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
         width:100%;
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    
     }
 
     #menu{
@@ -246,6 +240,7 @@ body{
 
     }
 
+    
 
 
 
@@ -258,18 +253,12 @@ body{
 
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
     }
 
     #menu{
@@ -333,7 +322,6 @@ body{
 
     #main ul{
         display: inline-block;
-        
         list-style-type: none;
         width:50%;
         height:70%;

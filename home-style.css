@@ -1,5 +1,13 @@
-body{margin:0;}
+body{
 
+    margin:0;
+    background: url('./pics/background-july2024.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+   
+}
 
 /*for smartphones*/
 @media screen and (max-width:480px){
@@ -10,14 +18,14 @@ body{margin:0;}
 
     #background{
 
-        background-color: #CAF0F8;
+        
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
+    
     }
 
     #menu{
@@ -78,14 +86,12 @@ body{margin:0;}
 
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
     }
 
     #menu{
@@ -158,14 +164,13 @@ body{margin:0;}
     
     #background{
 
-        background-color: #CAF0F8;
+        
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
     }
 
     #menu{
@@ -238,14 +243,12 @@ body{margin:0;}
     
     #background{
 
-        background-color: #CAF0F8;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
         box-sizing: border-box;
         height:100vh;
-        background: url(./background-new.jpg);
         
     }
 
@@ -303,6 +306,7 @@ body{margin:0;}
 
     }
     #hello{
+
         display: block;
         width:60%;
         font-weight: 800;

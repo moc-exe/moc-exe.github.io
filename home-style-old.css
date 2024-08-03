@@ -1,0 +1,330 @@
+
+
+body{margin:0;}
+
+
+/*for smartphones*/
+@media screen and (max-width:480px){
+
+    body{
+     min-width: 250px;
+    }
+
+    #background{
+
+        background-color: #CAF0F8;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+        height:100vh;
+        background: url(./pics/background-new.jpg);
+    }
+
+    #menu{
+        flex-direction: column;
+        background-color: #19535F;
+        width:99%;
+        height:120px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    #menu a{
+        text-decoration: none;
+        display:block;
+        text-align: center;
+        width:98%;
+        margin:15px auto;
+        font-size: 95%;
+        font-family:"Merriweather Sans";
+        font-weight: 800;
+        color:#54A19E;
+    }
+    
+    #home_menu{
+
+        color:#db304d !important;
+
+    }
+
+    #menu a:hover{
+        color: #F9A03F;
+    }
+    
+    #hello{
+        
+        display: block;
+        text-align: center;
+        font-weight: 800;
+        font-family: "Open Sans";
+        color: #F9A03F;
+        margin-top:5px;
+    }
+    
+    #main p{
+        
+
+        text-align: justify;
+        margin:2px 3%;
+        font-weight:500;
+        font-family:"Open Sans", monospace;
+        color:white;
+
+    }
+
+}
+/*for low-res tablets, iPads*/
+@media (min-width: 481px) and (max-width: 767px){
+
+
+    #background{
+
+        background-color: #CAF0F8;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+        height:100vh;
+        background: url(./background-new.jpg);
+    }
+
+    #menu{
+        flex-direction: column;
+        background-color: #19535F;
+        width:99%;
+        height:120px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    #menu a{
+        text-decoration: none;
+        display:block;
+        text-align: center;
+        width:98%;
+        margin:15px auto;
+        font-size: 100%;
+        font-family:"Merriweather Sans";
+        font-weight: 800;
+        color:#54A19E;
+    }
+    
+    #home_menu{
+
+        color:#db304d !important;
+
+    }
+
+    #menu a:hover{
+        color: #F9A03F;
+    }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+        
+        width:100%;
+        height:90%;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    #hello{
+        display: block;
+        width:60%;
+        font-weight: 800;
+        font-family: "Open Sans";
+        color: #F9A03F;
+        margin:5px auto;
+        text-align: center;
+    }
+    #main p{
+       
+        text-align: justify;
+        margin:2px auto;
+        font-weight:500;
+        font-family:"Open Sans", monospace;
+        color:white;
+        width:98%;
+        max-width: 500px;
+       
+
+    }
+
+}
+
+/*Tablets and IPad in portrait mode*/
+@media (min-width: 768px) and (max-width:1024px){
+    
+    
+    #background{
+
+        background-color: #CAF0F8;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+        height:100vh;
+        background: url(./background-new.jpg);
+    }
+
+    #menu{
+        flex-direction: column;
+        background-color: #19535F;
+        width:99%;
+        height:120px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    #menu a{
+        text-decoration: none;
+        display:block;
+        text-align: center;
+        width:98%;
+        margin:15px auto;
+        font-size: 100%;
+        font-family:"Merriweather Sans";
+        font-weight: 800;
+        color:#54A19E;
+    }
+    
+    #home_menu{
+
+        color:#db304d !important;
+
+    }
+
+    #menu a:hover{
+        color: #F9A03F;
+    }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+       
+        width:100%;
+        height:90%;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    #hello{
+        display: block;
+        width:60%;
+        font-weight: 800;
+        font-family: "Open Sans";
+        color: #F9A03F;
+        margin:5px auto;
+        text-align: center;
+    }
+    #main p{
+        
+        text-align: justify;
+        margin:2px auto;
+        font-weight:500;
+        font-family:"Open Sans", monospace;
+        color:white;
+        max-width: 500px;
+       
+
+    }
+
+}
+
+/*PCs*/
+@media(min-width:1025px){
+
+
+    
+    #background{
+
+        background-color: #CAF0F8;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+        height:100vh;
+        background: url(./background-new.jpg);
+        
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: flex-start;
+        background-color: #19535F;
+        width:99%;
+        height:150px;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    #menu a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        height:99%;
+        width:33%;
+        margin:15px auto;
+        font-size: 100%;
+        font-family:"Merriweather Sans";
+        font-weight: 800;
+        color:#54A19E;
+    }
+    
+    #menu span{
+
+        font-size: xx-large;
+
+
+    }
+
+    #home_menu{
+
+        color:#db304d !important;
+
+    }
+
+    #menu a:hover{
+        color: #F9A03F;
+    }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+        width:99%;
+        height:90%;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    #hello{
+        display: flex;
+        width:60%;
+        font-weight: 800;
+        font-family: "Open Sans";
+        color: #F9A03F;
+        margin:5px auto;
+        text-align: center;
+        font-size: xx-large;
+    }
+    #main p{
+        text-align: justify;
+        width:96%;
+        margin:2px auto;
+        font-weight:500;
+        font-size: x-large;
+        font-family:"Open Sans", monospace;
+        color:white;
+        max-width: 1200px;
+    
+    }
+
+}
+
